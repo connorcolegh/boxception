@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="CSS Boxception">
+  <link rel="stylesheet" href="style.css">
+  <title>Boxception</title>
+</head>
+<body>
+  <h1>Boxception (Div Version)</h1>
+  
+  <div id="large">
+    
+    <div id="medium">
+      
+      <div id="small"></div>
+    </div>
+  </div>
+
+  <h1>Boxception (Table Version)</h1>
+  
+  <table>
+    <tbody>
+      
+      <tr>
+        <td class="top left"></td>
+        <td class="top"></td>
+        <td class="top"></td>
+        <td class="top"></td>
+        <td class="top right"></td>
+      </tr>
+      
+      <tr>
+        <td class="left"></td>
+        <td class="blue top left"></td>
+        <td class="blue top"></td>
+        <td class="blue top right"></td>
+        <td class="right"></td>
+      </tr>
+      <!-- Third Row -->
+      <tr>
+        <td class="left"></td>
+        <td class="blue left"></td>
+        <td class="top bottom left right" id="white"></td>
+        <td class="blue right"></td>
+        <td class="right"></td>
+      </tr>
+      <!-- Fourth Row -->
+      <tr>
+        <td class="left"></td>
+        <td class="blue bottom left"></td>
+        <td class="blue bottom"></td>
+        <td class="blue bottom right"></td>
+        <td class="right"></td>
+      </tr>
+      <!-- Fifth Row -->
+      <tr>
+        <td class="bottom left"></td>
+        <td class="bottom"></td>
+        <td class="bottom"></td>
+        <td class="bottom"></td>
+        <td class="bottom right"></td>
+      </tr>
+    </tbody>
+  </table>
+
+</body>
+</html>
